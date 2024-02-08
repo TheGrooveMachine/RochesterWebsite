@@ -1,0 +1,195 @@
+#homepage{
+    background: rgb(0, 0, 0, 0.5) url("../images/rochester-ny-hero.jpeg");
+ 
+}
+#food {
+    background: rgb(0, 0, 0, 0.5) url("../images/Garbage\ .jpeg");
+}
+#community {
+    background: rgb(0, 0, 0, 0.5) url("../images/pool.jpeg");
+}
+#history {
+
+    background: rgb(0, 0, 0, 0.5) url("../images/historyjpeg.jpeg");
+}
+#education {
+    background: rgb(0, 0, 0, 0.5) url("../images/education.jpeg");
+}
+
+#foodpages {
+    background-color: black;
+}
+
+#homepage, #food, #community, #history, #education {
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-blend-mode: darken;
+}
+h1{
+    
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: lighter;
+    font-size: 40px;
+    text-shadow: 4px 4px 4px black;
+}
+
+p{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 18px;
+    padding-top: 15px;
+    margin-left: 25em;
+    margin-right: 25em;
+    text-indent: 50px;
+}
+.paragraphs{
+
+    margin-top: 13em;
+}
+
+h2{
+
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: lighter;
+    font-size: 40px;
+    text-shadow: 4px 4px 4px black;
+
+
+}
+
+.nav{
+    padding-top: 3em;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-spacing: 4em;
+    
+}
+li {
+    display: inline-block;
+}
+li a, #references, #grading {
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+        
+}
+.link::after, #references::after, #grading::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: red;
+    transform: scale(0, 0);
+    transition: 0.2s ease;
+
+}
+  
+.link:hover::after, #references:hover::after, #grading:hover::after {
+    width: 100%;
+    transform: scale(1, 1);
+
+}
+.foodlinks{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-spacing: 2em;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+    
+
+   
+}
+img{
+    border-radius: 40px;
+}
+#boss, #garbage, #wegmans, #rcsd, #college, #rcsd, #rink, #susan, #fredrick, #kodak {
+    -webkit-filter: brightness(100%);
+}
+
+#boss:hover, #garbage:hover, #wegmans:hover, #college:hover, #rcsd:hover, #rcenter:hover, #rink:hover, #fredrick:hover, #susan:hover, #kodak:hover {
+    -webkit-filter: brightness(40%);
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    transition: all .7s ease;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    word-spacing: normal;
+
+  }
+  
+#dropdown2:hover .dropdown-content, #dropdown1:hover .dropdown-content ,#dropdown3:hover .dropdown-content, #dropdown4:hover .dropdown-content, #dropdown5:hover .dropdown-content  {
+    display: block;
+  }
+
+#content{
+    font-size: 12px;
+}
+
+#content1, #content2, #content3, #content4, #content5, #content6, #content7, #content8, #content9, #content10{
+    -webkit-filter: brightness(100%);
+    font-size: 13px;
+}
+
+#content1:hover, #content2:hover, #content3:hover, #content4:hover, #content5:hover, #content6:hover, #content7:hover, #content8:hover, #content9:hover, #content10:hover {
+    -webkit-filter: brightness(40%);
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    transition: all .7s ease;
+
+}
+#references{
+
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+#referencepage{
+
+    background-color: black;
+}
+
+.referencelist{
+    left: 40%;
+    position: absolute;
+    top: 35%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#grading{
+    position: absolute;
+    top: 90%;
+    left: 35%;
+
+}
